@@ -62,7 +62,7 @@ echo "<meta http-equiv='refresh' content='0 ;url=index.php'>" ;
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-Title -->
-    <header class="jarallax" data-speed="0.5"  style="background-image: url('toy_shop/images/head2.jpg');">
+    <header class="jarallax" data-speed="0.5"  style="background-image: url('http://localhost/toy_shop/images/head2.jpg');">
         <div class="page-image">
             <h1 class="display-4"><?php echo $strPayment; ?></h1>
             <p class=" lead">   </p>
@@ -444,11 +444,11 @@ document.getElementById('address2').value=document.getElementById('address').val
         </div>
         
       </div>
-          <center><img src="toy_shop/images/dollpayment.png" /></center>
+          <center><img src="http://localhost/toy_shop/images/dollpayment.png" /></center>
           <article class="show post-105 page type-page status-publish hentry" style="color:black;">
                 <h1 class="page-heading">
-                    <img src="toy_shop/images/line.gif" /><img src="toy_shop/images/line.gif" />
-                      <span class="page-heading-title2"><br><img src="toy_shop/images/bird0.png" /><?php echo $strPAYMENTGUIDe; ?><img src="toy_shop/images/bird.png" /></span>
+                    <img src="http://localhost/toy_shop/images/line.gif" /><img src="http://localhost/toy_shop/images/line.gif" />
+                      <span class="page-heading-title2"><br><img src="http://localhost/toy_shop/images/bird0.png" /><?php echo $strPAYMENTGUIDe; ?><img src="http://localhost/toy_shop/images/bird.png" /></span>
                   </h1>
             <div class="entry-content">
       <p><strong><?php echo $strPaymentByinternet; ?></strong></p>
@@ -457,7 +457,7 @@ document.getElementById('address2').value=document.getElementById('address').val
       Email: <a href="mailto:songdep@sachkhaitam.com">songdep@sachkhaitam.com</a></p>
       <p>Telephone:&nbsp; <a href="tel:0873019777">08.7301.9777</a>- <a href="tel:0873016777">
       08.7301.6777</a></p>
-              <img src="toy_shop/images/line.gif" /><img src="toy_shop/images/line.gif" /
+              <img src="http://localhost/toy_shop/images/line.gif" /><img src="http://localhost/toy_shop/images/line.gif" /
 			</div><!-- .entry-content -->
 	</article>
     </div>

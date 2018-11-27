@@ -24,7 +24,7 @@ if(isset($_SESSION["username"])){
            ::-webkit-scrollbar-thumb:hover{background:#434343;border: 1px dashed #3a3a3a;box-shadow: 0px 0px 15px 000000;color: 000000 }</style>
       <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth626.cur), progress !important;}</style>
               <style type="text/css"> 
-     body { background:url(toy_shop/images/bg3.jpg) repeat fixed; !important; }
+     body { background:url(http://localhost/toy_shop/images/bg3.jpg) repeat fixed; !important; }
  </style>
   </head>
   <body>

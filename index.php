@@ -153,7 +153,7 @@ include 'config.php';
         <div class="carousel-inner">
             <div class="carousel-item active">
                 
-                <div class="carousel-img " style="background-image: url('toy_shop/images/headbarr.jpg');">
+                <div class="carousel-img " style="background-image: url('http://localhost/toy_shop/images/headbarr.jpg');">
                     
                 </div>
                 
@@ -163,7 +163,7 @@ include 'config.php';
                 
             </div>
             <div class="carousel-item">
-                <div class="carousel-img" style="background-image: url('toy_shop/images/head2.jpg');">
+                <div class="carousel-img" style="background-image: url('http://localhost/toy_shop/images/head2.jpg');">
                
                 </div>
                 <div class="carousel-caption">
@@ -171,7 +171,7 @@ include 'config.php';
                 </div>
             </div>
             <div class="carousel-item">
-                    <div class="carousel-img" style="background-image: url('toy_shop/images/head3.jpg');">
+                    <div class="carousel-img" style="background-image: url('http://localhost/toy_shop/images/head3.jpg');">
                        
                     </div> 
                     <div class="carousel-caption">
@@ -180,7 +180,7 @@ include 'config.php';
             </div>
             
             <div class="carousel-item">
-                    <div class="carousel-img" style="background-image: url('toy_shop/images/category.jpg');">
+                    <div class="carousel-img" style="background-image: url('http://localhost/toy_shop/images/category.jpg');">
                        
                     </div> 
                     <div class="carousel-caption">
@@ -219,7 +219,7 @@ include 'config.php';
             <div class="col-3"></div>
             <div class="col-lg-6 py-3 p-lg-0 text-center">
                 <br>
-                <img src="toy_shop/images/line.gif" /><br><br>
+                <img src="http://localhost/toy_shop/images/line.gif" /><br><br>
                 
                 <h2><?php echo $strAbout; ?></h2><br>
                  <?php echo $strTitle; ?>
@@ -227,7 +227,7 @@ include 'config.php';
                 <br>
                 <!-- <h3><?php  echo $strExpectations; ?></h3>
                 <p><?php echo $strTextExpectations; ?></p> -->
-                <img src="toy_shop/images/doll.png" />
+                <img src="http://localhost/toy_shop/images/doll.png" />
             </div>
             <div class="col-3"></div>
         </div>
@@ -257,7 +257,7 @@ include 'config.php';
                   </div>
                   <div class="card  ">
                       <a href="products.php?tag=all" class="warpper-card-img">
-                          <img class="card-img-top"src="toy_shop/images/ca1.jpg" alt="Card image cap">
+                          <img class="card-img-top"src="http://localhost/toy_shop/images/ca1.jpg" alt="Card image cap">
                            
                       </a>
               </div>
@@ -268,7 +268,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=2" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca2.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca2.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -278,7 +278,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=3" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca3.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca3.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -288,7 +288,7 @@ include 'config.php';
                   </div>
                   <div class="card  ">
                       <a href="products.php?tag=4" class="warpper-card-img">
-                          <img class="card-img-top"src="toy_shop/images/ca4.jpg" alt="Card image cap">
+                          <img class="card-img-top"src="http://localhost/toy_shop/images/ca4.jpg" alt="Card image cap">
                       </a>
               </div>
           </section>
@@ -298,7 +298,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=5" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca5l.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca5l.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -308,7 +308,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=6" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca6.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca6.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -318,7 +318,7 @@ include 'config.php';
                   </div>
                   <div class="card  ">
                       <a href="products.php?tag=7" class="warpper-card-img">
-                          <img class="card-img-top"src="toy_shop/images/ca7.jpg" alt="Card image cap">
+                          <img class="card-img-top"src="http://localhost/toy_shop/images/ca7.jpg" alt="Card image cap">
                       </a>
               </div>
           </section>
@@ -328,7 +328,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=8" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca8.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca8.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -340,7 +340,7 @@ include 'config.php';
               </div>
               <div class="card  ">
                   <a href="products.php?tag=9" class="warpper-card-img">
-                      <img class="card-img-top"src="toy_shop/images/ca9.jpg" alt="Card image cap">
+                      <img class="card-img-top"src="http://localhost/toy_shop/images/ca9.jpg" alt="Card image cap">
                   </a>
               </div>
           </section>  
@@ -352,7 +352,7 @@ include 'config.php';
                   </div>
                   <div class="card  ">
                       <a href="products.php?tag=10" class="warpper-card-img">
-                          <img class="card-img-top"src="toy_shop/images/ca10.jpg" alt="Card image cap">
+                          <img class="card-img-top"src="http://localhost/toy_shop/images/ca10.jpg" alt="Card image cap">
                       </a>
               </div>
           </section>

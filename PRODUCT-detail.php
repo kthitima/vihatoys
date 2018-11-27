@@ -67,7 +67,7 @@ $result = $mysqli->query("SELECT * FROM products WHERE id  LIKE '".$_GET['id']."
     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active">
-                <div class="carousel-img " style="background-image: url('http://www.www.vihatoys.com/toy_shop/images/head2.jpg');">
+                <div class="carousel-img " style="background-image: url('http://www.localhost/toy_shop/images/head2.jpg');">
                     <!-- <div class="blackscreen"></div> -->
                 </div>   
                 <div class="carousel-caption text-white ">

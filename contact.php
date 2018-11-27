@@ -34,7 +34,7 @@ include 'config.php';
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-Title -->
-    <header class="jarallax" data-speed="0.5"  style="background-image: url('toy_shop/images/headbarr.jpg');">
+    <header class="jarallax" data-speed="0.5"  style="background-image: url('http://localhost/toy_shop/images/headbarr.jpg');">
         <div class="page-image">
             <h1 class="display-4"><?php echo $strContact ?></h1>
             <p class=" lead"></p>
@@ -54,7 +54,7 @@ include 'config.php';
                 <div class="card h-100">
                     <div class="card-body">
                         <i class="fa fa-address-card py-2 fa-4x text-info" aria-hidden="true"></i>
-                        <h4 class="card-title"><img src="toy_shop/images/earth.jpg" /><br><?php echo $strAddressContact; ?></h4>
+                        <h4 class="card-title"><img src="http://localhost/toy_shop/images/earth.jpg" /><br><?php echo $strAddressContact; ?></h4>
                         <p class="card-text"><?php echo $row['name'] ?></p>
                     </div>
                 </div>
@@ -63,8 +63,8 @@ include 'config.php';
                 <div class="card h-100">
                     <div class="card-body">
                         <i class="fa fa-phone-square py-2 fa-4x text-info" aria-hidden="true"></i>
-                        <h4 class="card-title"><img src="toy_shop/images/phone.png" /><br><?php echo $strPhoneContact; ?></h4>
-                        <p class="card-text"><img src="toy_shop/images/pushpink.jpg" />&nbsp;<?php echo $row['phone'] ?></p>
+                        <h4 class="card-title"><img src="http://localhost/toy_shop/images/phone.png" /><br><?php echo $strPhoneContact; ?></h4>
+                        <p class="card-text"><img src="http://localhost/toy_shop/images/pushpink.jpg" />&nbsp;<?php echo $row['phone'] ?></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ include 'config.php';
                 <div class="card h-100">
                     <div class="card-body">
                         <i class="fa fa-envelope py-2 fa-4x text-info" aria-hidden="true"></i>
-                        <h4 class="card-title"><img src="toy_shop/images/letter.jpg" /><br><?php echo $strEmailContact; ?></h4>
+                        <h4 class="card-title"><img src="http://localhost/toy_shop/images/letter.jpg" /><br><?php echo $strEmailContact; ?></h4>
                         <p class="card-text"><?php echo $row['email'] ?></p>
                     </div>
                 </div>

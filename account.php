@@ -32,7 +32,7 @@ include 'config.php';
            ::-webkit-scrollbar-thumb:hover{background:#434343;border: 1px dashed #3a3a3a;box-shadow: 0px 0px 15px 000000;color: 000000 }</style>
       <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth626.cur), progress !important;}</style>
     <style type="text/css"> 
-     body { background:url(toy_shop/images/bg2.jpg) repeat fixed; !important; }
+     body { background:url(http://localhost/toy_shop/images/bg2.jpg) repeat fixed; !important; }
  </style>
   </head>
   <body>
@@ -73,10 +73,10 @@ include 'config.php';
 
     <div class="row" style="margin-top:30px;">
       <div class="small-12">
-          <p><b><img src="toy_shop/images/piano.gif" />&nbsp;&nbsp;<?php echo 'Hi ' .$_SESSION['fname'] .''; ?></b></p>
+          <p><b><img src="http://localhost/toy_shop/images/piano.gif" />&nbsp;&nbsp;<?php echo 'Hi ' .$_SESSION['fname'] .''; ?></b></p>
 
-          <p><b>Account Details&nbsp;<img src="toy_shop/images/pen.gif" /></b></p>
-        <p>Below are your details in the database. If you wish to change anything, then just fill new data in text box and click on update.<img src="toy_shop/images/book.gif" /></p>
+          <p><b>Account Details&nbsp;<img src="http://localhost/toy_shop/images/pen.gif" /></b></p>
+        <p>Below are your details in the database. If you wish to change anything, then just fill new data in text box and click on update.<img src="http://localhost/toy_shop/images/book.gif" /></p>
       </div>
     </div>
 

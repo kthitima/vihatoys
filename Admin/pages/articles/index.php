@@ -83,7 +83,7 @@
             <?php for($id=1; $id <= 5; $id++) { ?>
               <tr>
                 <td><?php echo $id; ?></td>
-                <td><img class="img-fluid d-block mx-auto" src="toy_shop/images/news.jpg" width="150px" alt=""></td>
+                <td><img class="img-fluid d-block mx-auto" src="http://localhost/toy_shop/images/news.jpg" width="150px" alt=""></td>
                 <td>Subject<?php echo $id; ?></td>
                 <td>Subtitle<?php echo $id; ?></td>
                 <td>1/12/2018</td>

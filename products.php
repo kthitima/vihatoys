@@ -69,7 +69,7 @@ include 'config.php';
     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active">
-                <div class="carousel-img " style="background-image: url('toy_shop/images/category.jpg');">
+                <div class="carousel-img " style="background-image: url('http://localhost/toy_shop/images/category.jpg');">
                     <div class="blackscreen"></div>
                    
                 </div>   

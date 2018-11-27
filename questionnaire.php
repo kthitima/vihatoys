@@ -42,7 +42,7 @@ include 'config.php';
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-Title -->
-    <header class="jarallax" data-speed="0.5"  style="background-image: url('toy_shop/images/headbarr.jpg');">
+    <header class="jarallax" data-speed="0.5"  style="background-image: url('http://localhost/toy_shop/images/headbarr.jpg');">
         <div class="page-image">
             <h1 class="display-4"><?php echo $strQuestionnaire; ?></h1>
             <p class=" lead">   </p>
@@ -73,13 +73,13 @@ echo "<meta http-equiv='refresh' content='0 ;url=index.php'>" ;
     <br>
 <H1>Web Efficiency and Satisfaction Survey</H1>
 <H2>Vi-Ha Toy Hochiminh Vietnam Store web system</H2>
-     <img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" /><img src="toy_shop/images/linegreen.jpg" />
+     <img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" /><img src="http://localhost/toy_shop/images/linegreen.jpg" />
 </CENTER>	
 <BR>
 I am Thitima  Kaiyasa a Bachelor of Computer science student at the University of Khonkaen. I am requesting your participation in a satisfaction survey regarding Vi Ha Toys Website. This survey should only take 5 minutes to complete.You will be asked to fill out a short questionnaire. Personal information will not be released or viewed by anyone other than researchers involved in this project. 
 If participants have further questions about this study, they may contact the principal investigator, Thitima Kaiyasa at kthitima@kkumail.com
 <BR>
-<CENTER><B>Please tick  <img src="toy_shop/images/dotpink.jpg" />  (check) this box to indicate that you consent to taking part in this survey.</B></CENTER>
+<CENTER><B>Please tick  <img src="http://localhost/toy_shop/images/dotpink.jpg" />  (check) this box to indicate that you consent to taking part in this survey.</B></CENTER>
 <BR>
  <B><H3>Section 1: Personal information</H3></B>
 					<div class="form-group">
@@ -306,13 +306,13 @@ More than 1515.18 USD<BR>
     <H3><b>Phiếu khảo sát mức độ hiệu quả và hài lòng về hệ thống </b></H3>
 <H3><b>website của cửa hàng đồ chơi</b></H3>
 <H3><b>Vi Ha Toys tại thành phố Hồ Chí Minh, Việt Nam</b></H3>
-           <img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" />
+           <img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" />
 </CENTER>	
 <BR>
 Tôi là Thitima Kaiyasa, một sinh viên ngành khoa học máy tính tại trường Đại học Khonkaen University Thailand. Xin mời bạn tham gia vào một cuộc khảo sát mức độ hài lòng về website của cửa hàng đồ chơi Vi Ha. Bản khảo sát này sẽ chỉ mất 5 phút để hoàn tất. Bạn sẽ điền vào một bản câu hỏi ngắn. Bên cạnh đó, thông tin cá nhân sẽ không được công khai hoặc xem bởi bất kỳ ai ngoài các nhà nghiên cứu tham gia vào dự án này.
 Nếu các bạn có thêm câu hỏi về nghiên cứu này, vui lòng tự nhiên để liên hệ với điều tra viên chính, Thitima Kaiyasa qua địa chỉ mail: kthitima@kkumail.com.
 <BR>
-<CENTER><B>Xin hãy chọn <img src="toy_shop/images/dotyellow.jpg" />   (check) vào ô vuông để thể hiện sự đồng ý của bạn khi tham gia khảo sát</B></CENTER>
+<CENTER><B>Xin hãy chọn <img src="http://localhost/toy_shop/images/dotyellow.jpg" />   (check) vào ô vuông để thể hiện sự đồng ý của bạn khi tham gia khảo sát</B></CENTER>
 <BR>
  <B><H3>Câu 1: Thông tin cá nhân</H3></B>
 					<div class="form-group">

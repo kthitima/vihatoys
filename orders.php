@@ -23,7 +23,7 @@ include 'config.php';
            ::-webkit-scrollbar-thumb:hover{background:#434343;border: 1px dashed #3a3a3a;box-shadow: 0px 0px 15px 000000;color: 000000 }</style>
       <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth626.cur), progress !important;}</style>
       <style type="text/css"> 
-body { background:url(toy_shop/images/bg.jpg) repeat fixed; !important; }
+body { background:url(http://localhost/toy_shop/images/bg.jpg) repeat fixed; !important; }
  </style>
   </head>
   <body>
@@ -65,13 +65,13 @@ body { background:url(toy_shop/images/bg.jpg) repeat fixed; !important; }
     <div class="row" style="margin-top:10px;">
       <div class="large-12">
           <center>
-        <p><b><img src="toy_shop/images/orderboy.jpg" /><br><font size="10"><?php echo 'Hi ' .$_SESSION['fname'] .''; ?></font></b></p>
+        <p><b><img src="http://localhost/toy_shop/images/orderboy.jpg" /><br><font size="10"><?php echo 'Hi ' .$_SESSION['fname'] .''; ?></font></b></p>
 
          
           <p><font size="7">❖─ Show all orders ─❖</font></p>
           </center>
-        <center><img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" /><img src="toy_shop/images/lineyellow.jpg" /></center>
-          <center><p><b>Order list&nbsp;<br><img src="toy_shop/images/oa.gif" /><img src="toy_shop/images/oa2.gif" /><img src="toy_shop/images/oa3.gif" /></b></p></center>  
+        <center><img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" /><img src="http://localhost/toy_shop/images/lineyellow.jpg" /></center>
+          <center><p><b>Order list&nbsp;<br><img src="http://localhost/toy_shop/images/oa.gif" /><img src="http://localhost/toy_shop/images/oa2.gif" /><img src="http://localhost/toy_shop/images/oa3.gif" /></b></p></center>  
           
 <center>
         <?php
@@ -101,7 +101,7 @@ body { background:url(toy_shop/images/bg.jpg) repeat fixed; !important; }
     </div>
 </center>
 
-<center><img src="toy_shop/images/cat.gif" /></center>
+<center><img src="http://localhost/toy_shop/images/cat.gif" /></center>
       <center><?php include_once('includes/footer.php') ?></center>
 
 
