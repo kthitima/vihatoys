@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^(.*)/(.*)/ /index.php?lang=$1&page=$2
+</IfModule>

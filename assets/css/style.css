@@ -1,0 +1,483 @@
+/* table of content */
+/* 
+    1 Section setting
+    2 Section carousel  
+    /* navbar */ 
+    /* Section blog */
+    /* Section Footer */
+    /* Section Page-Title */
+    /* section timeline */
+    /* scetion star-rating */
+    
+    .border-radius-10{
+        border-radius: 50%;
+
+    }
+
+/* Section setting */
+html,body {
+    height: 100%;
+}
+
+/* navbar */
+#navbar{
+    padding: 10px;
+    transition: 0.5s;
+    }
+
+@media (max-width: 480px){
+    .navbar-brand{
+        font-size: 0.8rem;
+        line-height: 2rem;
+    
+    }
+
+}
+#navbar1{
+    position: sticky;
+    top: 0;           
+    z-index: 1071;
+    min-height: 6rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+
+}
+
+.navbar-fix7{
+    position :absolute ;
+    bottom: -25%;
+    left:205px ;
+    z-index: 9999;
+    cursor: pointer; 
+}
+
+.navbar-fix{
+    position :absolute ;
+    bottom: -25%;
+    left:205px ; 
+    z-index: 9999;
+    cursor: pointer;
+}
+.navbar-fix2{
+    position : absolute ;
+    bottom: -25%;
+    left:30% ; 
+    z-index: 9999;
+    cursor: pointer;
+}
+.navbar-fix3{
+    position : absolute ;
+    bottom: -73%;
+    left: 599px ;
+    right: 50%; 
+    z-index: 9999;
+    cursor: pointer;
+}
+.navbar-fix4{
+    position : absolute ;
+    bottom: -25%;
+    right:30% ; 
+    z-index: 9999;
+    cursor: pointer;
+}.navbar-fix5{
+    position : absolute ;
+    bottom: -25%;
+    right:205px ; 
+    z-index: 9999;
+    cursor: pointer;
+}
+.navbar-fix6{
+    position : absolute ;
+    bottom: -24px;
+    left: 43% ;
+    right: 50%; 
+    z-index: 9999;
+    cursor: pointer;
+}
+
+
+
+.bg-alpha{
+    background: rgb(111,164,0)
+}
+.border-short-bottom {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+
+.border-short-bottom::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    background: #595959;
+}
+
+.border-short-bottom1{
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.border-short-bottom1::after{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 29%;
+    margin-left: -50px ;
+    background: #595959;
+
+}
+
+
+/* Section carousel  */
+@media(max-width:768px){
+    .display-4{
+        font-size: 3rem;
+        color: #ffffff;
+
+    }
+}
+.carousel,
+.carousel-inner .active,
+.carousel-item,
+.carousel-inner{
+    height: 100%;
+}
+.carousel-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    top: 40%;
+}
+
+.blackscreen{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+   
+    
+}
+
+
+
+
+/* Section blog */
+.warpper-card-img{
+    position: relative;
+    overflow: hidden;
+}
+.warpper-card-img::after{
+    content: '';
+    padding-top:56.25% ;
+    display: block;
+    height: 0;
+   
+}
+.warpper-card-img img{
+    position: absolute;
+    top: 0%;
+    transition: 1s;
+}
+.warpper-card-img img:hover{
+    transform: scale(1.2)
+}
+
+.btn-group-custom button{
+    margin-bottom: 0.5rem;
+    width: 180px;
+}
+
+.btn-group-custom a:hover{
+   text-decoration: none;
+}
+
+
+
+.blog-content{
+    padding: 50px 100px;
+    box-shadow: 0px 0px 10px #a5a5a5;
+
+}
+
+.owl-carousel .card-body{
+    height: 150px;
+    overflow: hidden;
+}
+
+@media (max-width:991px){
+    .blog-content{
+        padding: 40px 50px;
+        
+    } 
+}
+@media (max-width:768px){
+    .blog-content{
+        padding: 20px 30px;
+        
+    }   
+}
+
+
+/* Section Footer */
+
+.semi-footer{
+    background: #2b2b2b;
+    color: rgb(214, 214, 214);
+}
+.semi-footer a{
+    color: rgb(214, 214, 214);
+   
+}
+.semi-footer li.active a{
+    color: #fff;
+
+}
+.semi-footer h4{
+    color: #75c6fc;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+
+   
+}
+
+.footer {
+    background: #2b2b2b;
+    color: #ffffff;
+    font-size: 15px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+#map {
+    height: 300px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+
+/* Section Page-Title */
+
+.page-image{
+    padding: 200px 0px 120px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5)
+
+}
+
+
+.page{
+    position: relative;
+    display: block;
+    padding-top: 150px; 
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.page1{
+    position: relative;
+    display: block;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+
+.page-font{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+
+
+/* section timeline */
+.timeline{
+    list-style: none;
+    position: relative;
+    padding: 20px 0;
+}
+.timeline > li{
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.timeline::before{
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background: #e6e6e6;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+li > .timeline-badge{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #84ba3f;
+    left: 50%;
+    margin-left: -9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 5px #fff;
+    top: 15px;
+}
+li > .timeline-badge::before{
+    content: " ";
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 25px;
+    height: 2px;
+    background: #e6e6e6;
+}
+li.inverted > .timeline-badge::before{
+    right: -32px;
+}
+
+li > .timeline-badge p{
+    width: 200px;
+    margin-top: -9px;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 500;
+}
+li.inverted > .timeline-badge p{
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+}
+li > .timeline-card{
+    position: relative;
+    width: 46%;
+    float: left;
+    text-align: right;
+    padding: 0 10px;
+    
+}
+li.inverted > .timeline-card{
+    float: right;
+    text-align: left;
+}
+.timeline > li::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.timeline-arrow{
+    width: 100%;
+    text-align: center;
+    bottom: -70px;
+    color: #e6e6e6;
+}
+
+
+@media(max-width: 768px){
+    .timeline::before,
+    .timeline-badge{
+        left: 40px !important;
+    }
+    .timeline-badge::before{
+        right: -32px !important;
+    }
+    .timeline-badge p,
+    li.inverted > .timeline-badge p{
+        margin-left: 50px !important;
+        text-align: left;
+        float: left;
+    }
+    li > .timeline-card{
+        width: 100%;
+        text-align: left;
+        padding: 37px 0 0 85px;
+    }
+    .timeline-arrow{
+        text-align: left;
+        left: 0;
+    }
+    .timeline-arrow > i{
+        margin-left: 32px;
+    }
+}
+    
+
+
+
+
+/* scetion star-rating */
+.star-rating{
+    position: relative;
+    font-size: 2em;
+    color: gold;
+    display: inline-block;
+}
+
+.start-current{
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+/* section on to top */
+
+.to-top{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 40px;
+    height: 40px;
+    background: #75c6fc;
+    color: #ffffff;
+    z-index: 9999;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.to-top:hover{
+    color: #ffffff;
+    background: #66b9f1;
+}
+
+
+.form1{
+    position : absolute ;
+    bottom: 46px;
+    right: 7%; 
+}
+
+
+.form2{
+    position : absolute ;
+    bottom: 46px;
+    left: 7%; 
+}
+
+
+.LOGIN{
+    position: absolute;
+    bottom: 46px;
+    right: 1%;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    
+    
+}
